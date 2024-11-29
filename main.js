@@ -44,6 +44,7 @@ tracker.on("guildMemberAdd", async (member, type, invite) => {
     try {
       const isValidUser = await verifyInviteCode(usedInvite.code);
 
+      
       if (isValidUser) {
         // Find the role by ID
         const role = member.guild.roles.cache.get(process.env.ROLE_ID);
