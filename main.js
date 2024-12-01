@@ -62,6 +62,7 @@ tracker.on("guildMemberAdd", async (member, type, invite) => {
     }
   }
 
+  
   if (type === "normal") {
     console.log(
       `Welcome ${member}! You were invited by ${invite.inviter.username}!`
