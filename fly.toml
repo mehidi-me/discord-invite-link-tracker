@@ -1,6 +1,6 @@
 # fly.toml app configuration file generated for discord-invite-link-tracker on 2024-11-30T16:22:04Z
 #
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+# See https://fly.io/docs/reference/configuration/ for information about how to use this  file.
 #
 
 app = 'discord-invite-link-tracker'
